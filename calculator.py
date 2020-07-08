@@ -5,6 +5,7 @@ from arithmetic import (add, subtract, multiply, divide, square, cube,
 
 
 def calculator():
+"""Creating a function for a calculator"""
 
     while True:
         input_string = input("Your equation?")
@@ -17,6 +18,11 @@ def calculator():
 
         if symbol == '+':
             answer = add(num1, num2)
+
+        elif symbol == '-':
+            answer = subtract(num1, num2)
+
+
 
 return answer
 
