@@ -28,7 +28,8 @@ def calculator():
         elif symbol == '/': 
             answer = divide(num1, num2)
 
-
+        elif symbol == '*': 
+            answer = square(num1, num2)
 
 return answer
 
