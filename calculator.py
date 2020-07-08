@@ -34,6 +34,9 @@ def calculator():
         elif symbol == '*3': 
             answer = cube(num1, num2)
 
+        elif symbol == '**': 
+            answer = power(num1, num2)
+
 return answer
 
 
