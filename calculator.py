@@ -37,6 +37,9 @@ def calculator():
         elif symbol == '**': 
             answer = power(num1, num2)
 
+        elif symbol == '%': 
+            answer = mod(num1, num2)
+
 return answer
 
 
