@@ -25,6 +25,11 @@ def calculator():
         elif symbol == '*': 
             answer = multiply(num1, num2)
 
+        elif symbol == '/': 
+            answer = divide(num1, num2)
+
+
+
 return answer
 
 
