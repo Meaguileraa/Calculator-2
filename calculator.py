@@ -22,7 +22,8 @@ def calculator():
         elif symbol == '-':
             answer = subtract(num1, num2)
 
-
+        elif symbol == '*': 
+            answer = multiply(num1, num2)
 
 return answer
 
